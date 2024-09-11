@@ -1,0 +1,87 @@
+body {
+    color: black;
+    text-align: center;
+    background-color: #F1FAEE;
+    background-size: cover;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.header {
+    background-image: url("images/victoria.jpg");
+    background-size: cover;
+    height: 350px;
+    margin: 0px auto 20px; 
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: white;
+    border: 3px solid #E63946;
+    padding: 5px 10px;
+}
+
+li {
+    font-style: bold;
+    font-size: 25px;
+    font-weight: 400px;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    background-color: #1D3557;
+    background-size: contain;
+    color: #F1FAEE;
+    align-items: center;
+    padding: 2px;
+    border: 1px;
+    border-radius: 5px;
+}
+
+h2 {
+    background-color: #457B9D;
+    background-size: contain;
+    color: #F1FAEE;
+    align-items: center;
+    padding: 2px;
+    border: 1px;
+    border-radius: 5px;
+}
+
+#nightlife, #parks, #sportss {
+    margin: 10px
+}
+
+.fun {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3px 4px 7px;
+    text-align: center;
+}
+
+.images {
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+}
+
+.card {
+    width: 400px;
+   margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #A8DADC;
+    color: 8PX #3a0ca3;
+    border-bottom: 9px solid #457B9D;
+}
+
+.avatar{
+    width: 150px;
+}
